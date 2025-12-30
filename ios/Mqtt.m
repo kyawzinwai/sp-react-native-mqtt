@@ -158,7 +158,7 @@
                            user:[self.options valueForKey:@"user"]
                            pass:[self.options valueForKey:@"pass"]
                            will:[self.options[@"will"] boolValue]
-                      willTopic:[self.options valueForKey:@"willTopic"]
+                      willTopic:[self.options valueForKey:@"willtopic"]
                         willMsg:willMsg
                         willQos:(MQTTQosLevel)[self.options[@"willQos"] intValue]
                  willRetainFlag:[self.options[@"willRetainFlag"] boolValue]
