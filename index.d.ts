@@ -1,6 +1,6 @@
 export type QoS = 0 | 1 | 2;
 
-interface IMqttClientOptions {
+export interface IMqttClientOptions {
 	clientId: string;
 	uri: string;
 	host?: string;
